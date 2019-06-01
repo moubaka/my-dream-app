@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashboardModule } from './dashboard/dashboard.module';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
@@ -13,8 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    DashboardModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
