@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../models/user';
 
 @Component({
   selector: 'app-homepage',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
+  newUser:any;
+
   constructor() { }
 
   ngOnInit() {
+    this.newUser = {};
+    // https://blog.jscrambler.com/how-to-create-angular-toastr-notifications/
+  }
+  
+  public saveUser():void {
+    
   }
 
 }
