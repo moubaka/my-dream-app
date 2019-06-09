@@ -25,7 +25,6 @@ export class HomepageComponent implements OnInit {
   }
   
   public login():void {
-    console.log('user', this.user);
     if (!this.user.email) {
       this.toastr.error("Please insert your email address.");
       return;
