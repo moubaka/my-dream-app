@@ -20,7 +20,7 @@ export class HomepageComponent implements OnInit {
   }
 
   ngOnInit() {
-    
+    // test
     // https://blog.jscrambler.com/how-to-create-angular-toastr-notifications/
   }
   
