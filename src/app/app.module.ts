@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {NgwWowModule} from 'ngx-wow';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,7 +27,8 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
