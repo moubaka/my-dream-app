@@ -7,7 +7,7 @@ import { NgwWowService } from 'ngx-wow';
   styleUrls: ['./landingpage.component.scss']
 })
 export class LandingpageComponent implements OnInit {
-
+  
   constructor(private wowService: NgwWowService) {
     this.wowService.init();
   }
