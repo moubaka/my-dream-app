@@ -3,3 +3,10 @@
 		margin-top: 0.5em !important;
 	}
 }
+.navbar {
+	background-color: var(--primary-color);
+	color: var(--text-color);
+	&-brand,&-link {
+		color: var(--text-color) !important;
+	}
+}
