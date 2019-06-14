@@ -39,13 +39,8 @@ textarea {
 }
 
 .parallax {
-    /* The image used */
     background-image: url("/assets/img/w4.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
