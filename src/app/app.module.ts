@@ -15,6 +15,8 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+import { ChatModule } from './chat/chat.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,9 @@ import { environment } from '../environments/environment';
     MatSlideToggleModule,
     ToastrModule.forRoot(),
     NgwWowModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ChatModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

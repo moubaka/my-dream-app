@@ -1,3 +1,4 @@
+@import '../../styles.scss';
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -46,3 +47,10 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.text {
+    color: $primary-color;
+}
+.text-red {
+    color: $red;
+}

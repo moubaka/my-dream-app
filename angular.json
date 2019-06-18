@@ -38,7 +38,8 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/lightbox2/dist/js/lightbox.min.js",
-              "node_modules/wowjs/dist/wow.min.js"
+              "node_modules/wowjs/dist/wow.min.js",
+              "node_modules/talkify-tts/dist/talkify.min.js"
             ]
           },
           "configurations": {
